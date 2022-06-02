@@ -13,6 +13,10 @@
     <title>Portfolio Project</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/features/">
+
+    <!--<link href="./css/bootstrap.min.css" rel="stylesheet">-->
+
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -31,6 +35,24 @@
         }
       }
 
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      
+
+      
+
       
     </style>
     <!-- Custom styles for this template -->
@@ -40,7 +62,7 @@
   <!--      ---------------------------------     Head     ----------------------------------    -->
 
 
-  <body class="text-center">
+  <body>
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="bootstrap" viewBox="0 0 118 94">
@@ -74,11 +96,13 @@
       </symbol>
     </svg>
     
-
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        <span class="fs-4" style="color: white; font-family: Arial, 'Helvetica', sans-serif;">FandiR      .</span>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <!--  ---------------------------------------------    Header    ------------------------------------    -->
+  
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #e3f2fd;">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <span class="fs-4">FandiR</span>
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#"/></svg>
       </a>
   
       <ul class="nav nav-pills">
@@ -87,6 +111,7 @@
         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
       </ul>
     </header>
+    </div>
   
 
       <!--  ---------------------------------------------    Header    ------------------------------------    -->
@@ -138,7 +163,7 @@
 
             <div class="col-6 col-md-2 mb-3">
               <h5><svg class="bi" width="30" height="30"><use xlink:href="#phone"/></svg>Call Me On</h5>
-              <a class="link-dark" style="color: white;" href="tel:+573224807054">322 480 70 54</a>
+              <a style="color: white;" href="tel:+573224807054">322 480 70 54</a>
               </ul>
             </div>
 
@@ -147,7 +172,7 @@
       
             <div class="col-6 col-md-2 mb-3">
               <h5><svg class="bi" width="30" height="30"><use xlink:href="#mail"/></svg>Email Me At</h5>
-              <a class="link-dark" style="color: white;" href="mailto:danimonacha@hotmail.com">danimonacha@hotmail.com</a>
+              <a style="color: white;" href="mailto:danimonacha@hotmail.com">danimonacha@hotmail.com</a>
             </div>
 
             <div class="col-6 col-md-2 mb-3">
@@ -155,7 +180,7 @@
       
             <div class="col-6 col-md-2 mb-3">
               <h5><svg class="bi" width="30" height="30"><use xlink:href="#gitH"/></svg>Find Me At GitHub</h5>
-              <a class="link-dark" style="color: white;" href="https://github.com/LDFandinoR">LDFandinoR</a>
+              <a style="color: white;" href="https://github.com/LDFandinoR">LDFandinoR</a>
             </div>
 
             <div class="col-6 col-md-2 mb-3">
@@ -170,7 +195,7 @@
 
             <div class="col-6 col-md-2 mb-3">
               <h5><svg class="bi" width="30" height="30"><use xlink:href="#linked"/></svg>Find Me At LinkedIn</h5>
-              <a class="link-dark" style="color: white;" href="www.linkedin.com/in/laura-fandino-rangel">Laura Daniela Fandiño Rangel</a>
+              <a style="color: white;" href="www.linkedin.com/in/laura-fandino-rangel">Laura Daniela Fandiño Rangel</a>
             </div>
           </div>
       
